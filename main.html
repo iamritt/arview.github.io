@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AR Robo Websi</title>
+  <link rel="icon" href="images/logo.png" title="" type="png" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="Stylesheet/style1.css">
+ 
+</head>
+
+<body>
+  <!--navbar-->
+  <div class="container">
+    <div class="navbar">
+      <img src="images/logo.png" class="logo" />
+      <nav>
+        <ul id="menuList">
+          <li><a href="Character html/index.html">Ar Webpage</a></li>
+          <!--<li><a href="#">Contact</a></li>-->
+          <li><a href="Character html/About.html">About Us</a></li>
+        </ul>
+      </nav>
+     <img src="images/menu.png" class="menu-icon" onclick="togglemenu()" />
+    </div>
+    
+  <!--main contain-->  
+    <div class="row">
+      <div class="col-1">
+        <h2>AR<br>Welcome To New World Of </h2>
+        <h3></h3>
+        <p></p>
+        <h4>Augmented Reality</h4>
+        <a href="Character html/index.html">
+        <button type="button">Get Started<img src="images/arrow.png"/></button></a>
+      </div>
+      <div class="col-2">
+        <img src="images/giphy(1).gif" class="controller" />
+        <div class="color-box">
+        </div>
+      </div>
+      
+    </div>
+    
+  <!--Social link-->    
+    <div class="social">
+         <img src="images/fb.png" />
+         <img src="images/ig.png" />
+         <img src="images/tw.png" />
+    </div>
+ 
+
+  <!--Script-->
+<script>
+var menuList=document.getElementById("menuList")
+  
+  menuList.style.maxHeight="0px";
+  
+  function togglemenu(){
+    
+    if(menuList.style.maxHeight=="0px")
+    {
+      menuList.style.maxHeight="130px";
+    }
+    else{
+      menuList.style.maxHeight="0px";
+    }
+  }
+  
+
+</script>
+
+</body>
+</html>
